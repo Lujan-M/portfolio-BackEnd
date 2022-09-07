@@ -8,21 +8,22 @@ import javax.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter 
+@Setter
 @Entity
 public class User {
     
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)    
-    private Long id;
+    private Long id_usuarios;
     private String email;
     private String password;
 
     public Long getId() {
-        return id;
+        return id_usuarios;
      }
      public void setId(Long id) {
-        this.id = id;
+        this.id_usuarios = id;
      }
      public String getEmail() {
         return email;
