@@ -172,6 +172,8 @@ public class AppController {
             persona2.setAcerca_de(persona.getAcerca_de());
             persona2.setGithub(persona.getGithub());
             persona2.setLinkedin(persona.getLinkedin());
+            persona2.setBanner(persona.getBanner());
+            persona2.setPerfil(persona.getPerfil());
             Service.savePersona(persona2);
             return persona2;
         } catch (Exception e) {

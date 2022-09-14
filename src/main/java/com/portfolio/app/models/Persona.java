@@ -21,5 +21,7 @@ public class Persona {
     private String acerca_de;
     private String linkedin;
     private String github;
+    private String banner;
+    private String perfil;
     
 }
